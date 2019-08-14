@@ -1,28 +1,26 @@
 <?xml version="1.0"?>
 <package>
     <name>Update_Product</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
     <channel>community</channel>
     <extends/>
-    <summary>Extension is use for those product who depend on their base price ,shipping cost and currency &#xD;
-you can change all product price by admin based on currency of product </summary>
-    <description>you can use this extension to use this plugin for update product price&#xD;
-for this plugin i have create 3 custom attribute for each product&#xD;
-1)basis_preis(base_price)&#xD;
-2)versandkosten (shipping cost)&#xD;
-3)currency(name:-pfund,euro,usd)&#xD;
-you can use above extension after creating this 3 attribute this plugin is only for those product which price is based on their base price and shipping cost and as well as based on currency &#xD;
+    <summary>update_product module is used to set all product price as per their shipping cost and basic price of product</summary>
+    <description>update_product module is used to set all product price as per their shipping cost and basic price of product&#xD;
 &#xD;
-for more details see screenshot or &#xD;
-also visit: http://abhaykhatariya.blogspot.com/&#xD;
-also you can contact me for more details.</description>
-    <notes>version 1.0.1 Update Product Price</notes>
+&#xD;
+to integrated this extension use above screenshot and before integrate add two attribute name "basis_preis" and "versandkosten" in admin and assing to default attribute set&#xD;
+after set this two attribute which is product basis price and shippingcost which are you can decide for each product&#xD;
+and after integrated this extension you can chnage your product every when you need to change&#xD;
+you can change product price as per currency Pfund,Euro,USD&#xD;
+for more details visit http://abhaykhatariya.blogspot.in/&#xD;
+contact me for more details </description>
+    <notes>version 1.0.2</notes>
     <authors><author><name>Abhay</name><user>abhay5683</user><email>abhay5683@gmail.com</email></author></authors>
-    <date>2013-12-16</date>
-    <time>05:13:19</time>
-    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="product.xml" hash="1103efb130a413b72dda89238c5eab11"/></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="product.xml" hash="15c583e2eadfbbf3f8c31a5d712a62ba"/></dir><dir name="template"><dir name="product"><file name="product.phtml" hash="22d23c1938d0b9c97b24ba0f92845356"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Update_Product.xml" hash="e9ce23cd85f68e216ca1c4aae8e4493d"/></dir></target></contents>
+    <date>2013-12-17</date>
+    <time>06:57:23</time>
+    <contents><target name="magelocal"><dir name="Update"><dir name="Product"><dir name="Block"><dir name="Adminhtml"><dir name="Product"><dir name="Edit"><file name="Form.php" hash="363b339e473ff0e3bdd894ebc7c666f7"/><dir name="Tab"><file name="Form.php" hash="2cd7ad62e32e7b7b673add9f53799e5c"/></dir><file name="Tabs.php" hash="fbb15757ec1d0bf9649134ebdc402463"/></dir><file name="Edit.php" hash="6782dc2d1a1d780ba1d6df52f1f356a0"/><file name="Grid.php" hash="451c81a3592f7fa10129bc028f07dcee"/></dir><file name="Product.php" hash="93847b81c4bee961d7d7629b4bb5ecc9"/></dir><file name="Product.php" hash="76ef1ac9c4ac4affcfcfb664f5fc057e"/></dir><dir name="Helper"><file name="Data.php" hash="0bfc0d566e5717099ef4ddad157c851d"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Product"><file name="Collection.php" hash="a924eead62f3723798c61cfcdec40eeb"/></dir><file name="Product.php" hash="299bb7c0663f4371f4a5aced9866f3ea"/></dir><file name="Product.php" hash="48f765e6af22f9cfb52cdd570a28ae89"/><file name="Status.php" hash="a3ba027bf88cfd7e29505a4fec1c3912"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ProductController.php" hash="960998d9e354ae788d10628531d6bb96"/></dir><file name="IndexController.php" hash="87d42fa799e55f1242e83fe3184f15c7"/></dir><dir name="etc"><file name="config.xml" hash="e7de3d0e61c9db4d4300067978d82290"/></dir><dir name="sql"><dir name="product_setup"><file name="mysql4-install-0.1.0.php" hash="f4ee10c09b5e785dfe0b6308cf938029"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Update_Product.xml" hash="e9ce23cd85f68e216ca1c4aae8e4493d"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="product.xml" hash="1103efb130a413b72dda89238c5eab11"/></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="product.xml" hash="15c583e2eadfbbf3f8c31a5d712a62ba"/></dir><dir name="template"><dir name="product"><file name="product.phtml" hash="22d23c1938d0b9c97b24ba0f92845356"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>5.4.10</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7.0.2</max></package></required></dependencies>
 </package>
