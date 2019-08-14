@@ -37,7 +37,7 @@
     <adminhtml>
 		<menu>
 			<product module="product">
-				<title>xChange Rate Updater KonVis</title>
+				<title>xChange Product Rate</title>
 				<sort_order>71</sort_order>
 				<action>product/adminhtml_product/edit/id/1</action>               
 				<!--<children>
