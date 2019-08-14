@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/Update_Product",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Extension is use for those product who depend on their base price ,shipping cost and currency 
+you can change all product price by admin based on currency of product ",
+    "authors": [
+    {
+        "name": "Abhay",
+        "email": "abhay5683@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
