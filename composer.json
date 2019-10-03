@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Update_Product",
+    "name": "OpenMageModuleFostering\/Update_Product",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "update_product module is used to set all product price as per their shipping cost and basic price of product",
     "authors": [
-    {
-        "name": "Abhay",
-        "email": "abhay5683@gmail.com"
-    }
-],
+        {
+            "name": "Abhay",
+            "email": "abhay5683@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
